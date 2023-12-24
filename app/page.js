@@ -9,15 +9,15 @@ export default function Experience() {
       <Head>
         <title>Esslam Ashour</title>
         <meta name="description" content='' />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" sizes='any'/>
       </Head>
     
-      <main className=' bg-gradient-to-tl from-indigo-500 via-slate-900 to-black md:px-10 lg:px-30 max-w-screen'>
+      <main className=' bg-gradient-to-tl from-zinc-800 via-slate-900 to-black md:px-10 lg:px-30 max-w-screen'>
         <nav className="text-4xl md:text-5xl lg:text-5xl flex justify-center gap-10 py-3 flex-row md:flex flex-grow pt-10">
-            <a rel="noopener noreferrer" target="_blank" href="https://linkedin.com/in/esslam-ashour"><AiOutlineLinkedin className="text-white hover:text-indigo-600 hover:translate-y-1 transition ease-in" /></a>
-            <a rel="noopener noreferrer" target="_blank" href="https://github.com/esslam-ashour"><AiOutlineGithub className="text-white hover:text-indigo-600 hover:translate-y-1 transition ease-in" /></a>
-            <a href="mailto:esslamhosam@gmail.com"><AiOutlineMail className="text-white hover:text-indigo-600 hover:translate-y-1 transition ease-in" /></a>
-            <Link rel="noopener noreferrer" target="_blank" href="/resume.pdf"><CgFileDocument className="text-white hover:text-indigo-600 hover:translate-y-1 transition ease-in"/></Link>
+            <a rel="noopener noreferrer" target="_blank" href="https://linkedin.com/in/esslam-ashour"><AiOutlineLinkedin className="text-white hover:text-zinc-600 hover:translate-y-1 transition ease-in" /></a>
+            <a rel="noopener noreferrer" target="_blank" href="https://github.com/esslam-ashour"><AiOutlineGithub className="text-white hover:text-zinc-600 hover:translate-y-1 transition ease-in" /></a>
+            <a href="mailto:esslamhosam@gmail.com"><AiOutlineMail className="text-white hover:text-zinc-600 hover:translate-y-1 transition ease-in" /></a>
+            <Link rel="noopener noreferrer" target="_blank" href="/resume.pdf"><CgFileDocument className="text-white hover:text-zinc-600 hover:translate-y-1 transition ease-in"/></Link>
         </nav>
         <section className="min-h-screen">
           <div className="justify-center p-10">
@@ -35,20 +35,26 @@ export default function Experience() {
           </div>
           <div>
           <div className="justify-end pl-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-            <div className="border-2 border-indigo-500 bg-opacity-10 flex flex-col bg-white text-indigo-500 px-10 py-10 mr-8 mt-4 mb-4 rounded-xl">
+            <div className="border-2 border-zinc-800 bg-opacity-10 flex flex-col bg-white text-zinc-800 px-10 py-10 mr-8 mt-4 mb-4 rounded-xl">
               <h3 className="font-bold text-2xl md:text-3xl lg:text-4xl pb-3 text-center md:text-left lg:text-left text-white">Projects</h3>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-3">
-                <a rel="noopener noreferrer" target="_blank" href="https://github.com/esslam-ashour/GoQuizCLI"><p className="border-2 border-white transition ease-in hover:bg-indigo-700 hover:translate-y-1 bg-indigo-500 text-white rounded-xl py-2 px-3 text-center">GoQuizCLI<br/><span className='text-sm text-gray-300'>A CLI quiz app</span></p></a>
-                <Link href="#"><p className="border-2 border-white transition ease-in hover:bg-indigo-700 hover:translate-y-1 bg-indigo-500 text-white rounded-xl py-2 px-3 text-center">MuhMoney <br/><span className='text-sm text-gray-300'>An expense tracker</span></p></Link>
+                <a rel="noopener noreferrer" target="_blank" href="https://github.com/esslam-ashour/GoQuizCLI"><p className="border-2 border-white transition ease-in hover:bg-zinc-700 hover:translate-y-1 bg-zinc-800 text-white rounded-xl py-2 px-3 text-center">GoQuizCLI<br/><span className='text-sm text-gray-300'>A CLI quiz app</span></p></a>
+                <Link href="#"><p className="border-2 border-white transition ease-in hover:bg-zinc-700 hover:translate-y-1 bg-zinc-800 text-white rounded-xl py-2 px-3 text-center">MuhMoney <br/><span className='text-sm text-gray-300'>An expense tracker</span></p></Link>
               </div>
             </div>
-            <div className="border-2 border-white bg-opacity-10 flex flex-col bg-indigo-500 text-white px-10 py-10 mr-8 mt-4 mb-4 rounded-xl">
+            <div className="border-2 border-white bg-opacity-10 flex flex-col bg-zinc-800 text-white px-10 py-10 mr-8 mt-4 mb-4 rounded-xl">
               <h3 className="font-bold text-2xl md:text-3xl lg:text-4xl pb-3 text-center md:text-left lg:text-left">Skills</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-3">
-                <p className="border-2 border-indigo-500 bg-white text-indigo-500 rounded-xl py-2 px-3 text-center truncate">Python</p>
-                <p className="bg-white text-indigo-500 rounded-xl py-2 px-3 text-center truncate">Go</p>
-                <p className="bg-white text-indigo-500 rounded-xl py-2 px-3 text-center truncate">JavaScript</p>
-                <p className="bg-white text-indigo-500 rounded-xl py-2 px-3 text-center truncate">SQL</p>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-3">
+                <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">Python</p>
+                <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">Go</p>
+                <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">JavaScript</p>
+                <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">SQL</p>
+                <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">Bash</p>
+                <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">Next.js</p>
+                <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">Django</p>
+                <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">Tailwind</p>
+                <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">Linux</p>
+                <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">Git</p>
               </div>
             </div>
           </div>
