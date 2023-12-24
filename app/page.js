@@ -45,7 +45,7 @@ export default function Experience() {
             </div>
             <div className="border-2 border-white bg-opacity-10 flex flex-col bg-zinc-800 text-white px-10 py-10 mr-8 mt-4 mb-4 rounded-xl">
               <h3 className="font-bold text-2xl md:text-3xl lg:text-4xl pb-3 text-center">Skills</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-8">
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-8">
                 <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">Python</p>
                 <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">Go</p>
                 <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">JavaScript</p>
