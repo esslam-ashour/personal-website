@@ -35,14 +35,14 @@ export default function Experience() {
           </div>
           <div>
           <div className="justify-end pl-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-            <div className="border-2 border-indigo-500 bg-opacity-25 flex flex-col bg-white text-indigo-500 px-10 py-10 mr-8 mt-4 mb-4 rounded-xl">
+            <div className="border-2 border-indigo-500 bg-opacity-10 flex flex-col bg-white text-indigo-500 px-10 py-10 mr-8 mt-4 mb-4 rounded-xl">
               <h3 className="font-bold text-2xl md:text-3xl lg:text-4xl pb-3 text-center md:text-left lg:text-left text-white">Projects</h3>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-3">
                 <a rel="noopener noreferrer" target="_blank" href="https://github.com/esslam-ashour/GoQuizCLI"><p className="border-2 border-white transition ease-in hover:bg-indigo-700 hover:translate-y-1 bg-indigo-500 text-white rounded-xl py-2 px-3 text-center">GoQuizCLI<br/><span className='text-sm text-gray-300'>A CLI quiz app</span></p></a>
                 <Link href="#"><p className="border-2 border-white transition ease-in hover:bg-indigo-700 hover:translate-y-1 bg-indigo-500 text-white rounded-xl py-2 px-3 text-center">MuhMoney <br/><span className='text-sm text-gray-300'>An expense tracker</span></p></Link>
               </div>
             </div>
-            <div className="border-2 border-white bg-opacity-25 flex flex-col bg-indigo-500 text-white px-10 py-10 mr-8 mt-4 mb-4 rounded-xl">
+            <div className="border-2 border-white bg-opacity-10 flex flex-col bg-indigo-500 text-white px-10 py-10 mr-8 mt-4 mb-4 rounded-xl">
               <h3 className="font-bold text-2xl md:text-3xl lg:text-4xl pb-3 text-center md:text-left lg:text-left">Skills</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-3">
                 <p className="border-2 border-indigo-500 bg-white text-indigo-500 rounded-xl py-2 px-3 text-center truncate">Python</p>
