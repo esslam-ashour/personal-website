@@ -12,7 +12,7 @@ export default function Experience() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     
-      <main className=' bg-gradient-to-tl from-indigo-500 via-slate-900 to-black md:px-20 lg:px-40 max-w-screen'>
+      <main className=' bg-gradient-to-tl from-indigo-500 via-slate-900 to-black md:px-10 lg:px-30 max-w-screen'>
         <nav className="text-4xl md:text-5xl lg:text-5xl flex justify-center gap-10 py-3 flex-row md:flex flex-grow pt-10">
             <a rel="noopener noreferrer" target="_blank" href="https://linkedin.com/in/esslam-ashour"><AiOutlineLinkedin className="text-white hover:text-indigo-600 hover:translate-y-1 transition ease-in" /></a>
             <a rel="noopener noreferrer" target="_blank" href="https://github.com/esslam-ashour"><AiOutlineGithub className="text-white hover:text-indigo-600 hover:translate-y-1 transition ease-in" /></a>
@@ -27,7 +27,7 @@ export default function Experience() {
             </div>
             <div className="flex flex-row justify-between">
               <h2 className="text-3xl py-2 md:text-5xl lg:text-6xl font-bold">Esslam</h2>
-              <h2 dir='rtl' className="text-3xl py-4 md:text-5xl lg:text-6xl font-bold">إسلام</h2>
+              <h2 dir='rtl' className="text-3xl py-2 md:py-4 lg:py-4 md:text-5xl lg:text-6xl font-bold">إسلام</h2>
             </div>
             <h3 className="text-l py-2 text-gray-300 md:text-xl lg:text-3xl">An aspiring SWE from Egypt</h3>
             <h3 className="text-l py-2 text-gray-300 md:text-xl lg:text-3xl">First-year CS <span className="font-bold">@</span> UChicago</h3>
