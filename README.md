@@ -9,7 +9,11 @@ This is my personal website, developed in Next.js and Tailwind CSS.
 ## Skills I learned:
 
 **Next.js:** Leveraged Next.js for server-side rendering.
+
 **Tailwind CSS:** Employed Tailwind CSS for rapid UI development and styling.
+
 **Git:** Employed Git for version control, maintaining clean commits.
+
 **Responsive Design:** Ensured responsive design for a seamless user experience across devices.
+
 **Deployment:** Deployed the project on Vercel, automating the deployment process for every push to the main branch.
