@@ -7,4 +7,5 @@ This is my personal website, developed in Next.js and Tailwind CSS.
 
 
 ## Skills I learned:
+
 **Next.js:** Leveraged Next.js for server-side rendering.
