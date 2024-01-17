@@ -39,7 +39,6 @@ export default function Experience() {
               <h3 className="font-bold text-2xl md:text-3xl lg:text-4xl pb-3 text-center text-white">Projects</h3>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-8">
                 <a rel="noopener noreferrer" target="_blank" href="https://github.com/esslam-ashour/GoQuizCLI"><p className="border-2 border-white transition ease-in hover:bg-zinc-700 hover:font-bold hover:translate-y-1 bg-zinc-800 text-white rounded-xl py-2 px-3 text-center">GoQuizCLI<br/><span className='text-sm text-gray-300'>A CLI quiz app made using Golang</span></p></a>
-                <Link rel="noopener noreferrer" target="_blank" href="https://github.com/esslam-ashour/react-expenses"><p className="border-2 border-white transition ease-in hover:bg-zinc-700 hover:translate-y-1 bg-zinc-800 text-white rounded-xl py-2 px-3 text-center hover:font-bold">MuhMoney<br/><span className='text-sm text-gray-300'>An expense tracker made using React</span></p></Link>
                 <Link href="https://www.esslam-ashour.com"><p className="border-2 border-white transition ease-in hover:bg-zinc-700 hover:translate-y-1 bg-zinc-800 text-white rounded-xl py-2 px-3 text-center hover:font-bold">This website!<br/><span className='text-sm text-gray-300'>Made using Next.js and Tailwind CSS</span></p></Link>
               </div>
             </div>
@@ -51,7 +50,8 @@ export default function Experience() {
                 <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">JavaScript</p>
                 <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">SQL</p>
                 <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">Bash</p>
-                <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">Next.js</p>                <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">Tailwind</p>
+                <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">Next.js</p>                
+                <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">Tailwind</p>
                 <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">Linux</p>
                 <p className="border-2 border-zinc-800 bg-white text-zinc-800 rounded-xl py-2 px-3 text-center truncate">Git</p>
               </div>
