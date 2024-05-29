@@ -30,7 +30,7 @@ export default function Experience() {
               <h2 dir='rtl' className="text-3xl py-2 md:py-4 lg:py-4 md:text-5xl lg:text-6xl font-bold">إسلام</h2>
             </div>
             <h3 className="text-l py-2 text-gray-300 md:text-xl lg:text-3xl">An aspiring SWE from Egypt</h3>
-            <h3 className="text-l py-2 text-gray-300 md:text-xl lg:text-3xl">First-year CS <span className="font-bold">@</span> UChicago</h3>
+            <h3 className="text-l py-2 text-gray-300 md:text-xl lg:text-3xl">Rising second-year CS and Linguistics major <span className="font-bold">@</span> UChicago</h3>
             <h3 className="text-l py-2 text-gray-300 md:text-xl lg:text-3xl">Technical Support Specialist <span className="font-bold">@</span> <a href="https://rcc.uchicago.edu/" target="_blank">UChicago RCC</a></h3>
             <h3 className="text-l py-2 text-gray-300 md:text-xl lg:text-3xl">Incoming Software Engineering Intern <span className="font-bold">@</span> <a href="https://alleo.ai" target="_blank">Alleo.ai</a></h3>
           </div>
